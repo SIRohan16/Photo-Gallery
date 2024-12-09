@@ -1,0 +1,42 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+img{
+    width: 19%;
+    height: 19%px;
+    border: 5px solid #88888800;
+    border-radius: 15px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10xp;
+    transition: 500ms;
+    filter: grayscale(1);
+    overflow: hidden;
+}
+img:hover{
+    filter: grayscale(0);
+    transform: scale(1.11);
+}
+a{
+    width: 19%;
+    height: 19%px;
+    border: 5px solid #88888800;
+    border-radius: 15px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10xp;
+    transition: 500ms;
+    filter: grayscale(1);
+    overflow: hidden;
+}
+a:hover{
+    filter: grayscale(0);
+    transform: scale(1.11);
+}
+body{
+    background: linear-gradient(red,blue)
+}
